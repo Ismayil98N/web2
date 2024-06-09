@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Headerin baslangici*/
+.umumi {
+    width: 100%;
+}
+
+.basliq {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+a {
+    color: white;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+li>a:hover {
+    color: olive;
+}
+
+.sol {
+    width: 30%;
+    margin-left: 0px;
+
+}
+
+/* Headerin sonu*/
+
+/* Orta hissenin baslangici*/
+html,body{
+    overflow-x: hidden;
+}
+.video {
+    width: 100%;
+    height: inherit;
+}
+
+
+
+.sekilorta {
+    position: absolute;
+    transform: translate(160%, -1500%);
+
+}
+
+.qara {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.qaraorta {
+    width: 40%;
+    height: 50vh;
+    text-align: center;
+
+}
+
+span {
+    color: orangered;
+}
+
+.qaraorta>h2 {
+    padding: 50px;
+}
+.sekil3,.sekil4{
+    background-attachment: fixed;
+}
+.sekil2 {
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/home/zeekr-001-md@2x.jpg);
+    width: inherit;
+    height: 110vh;
+    background-size: cover;
+}
+
+.sekil2orta {
+    transform: translate(40%, 30vh);
+    color: white;
+}
+
+.sekil2buttom {
+    width: 10%;
+    padding: 12px;
+    border: 1px solid white;
+    margin-top: 30px;
+    text-align: center;
+    transform: translatex(50%);
+}
+
+.sekil2buttom:hover {
+    transform: scale(1.5);
+
+}
+
+.sekil3 {
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/home/zeekr-009-md.jpg);
+    width: inherit;
+    height: 110vh;
+    background-size: cover;
+}
+
+.sekil3orta {
+    transform: translate(40%, 30vh);
+    color: white;
+}
+
+.sekil3buttom {
+    width: 10%;
+    padding: 12px;
+    border: 1px solid white;
+    margin-top: 30px;
+    text-align: center;
+    transform: translatex(50%);
+}
+
+.sekil4 {
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/home/zeekr-x-md@2x.jpg);
+    width: inherit;
+    height: 110vh;
+    background-size: cover;
+}
+
+.sekil4orta {
+    transform: translate(40%, 30vh);
+    color: white;
+}
+
+.sekil4buttom {
+    width: 10%;
+    padding: 12px;
+    border: 1px solid white;
+    margin-top: 30px;
+    text-align: center;
+    transform: translatex(50%);
+}
+
+.asagi {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.asagi1 {
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-23@2x.jpg);
+    width: 23%;
+    height: 30vh;
+    background-size: cover;
+
+}
+
+.asagi2 {
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-22@2x-2.jpg);
+    width: 23%;
+    height: 30vh;
+    background-size: cover;
+}
+
+.asagi3 {
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-21@2x.jpg);
+    width: 23%;
+    height: 30vh;
+    background-size: contain;
+}
+
+.asagi>h2,
+p {
+    margin-top: 250px;
+    padding: 20px 0px;
+}
+
+.asagi1,
+.asagi2,
+.asagi3 {
+    background-size: 100% 100%;
+    transition: 0.5s all;
+}
+
+.asagi1:hover,
+.asagi2:hover,
+.asagi3:hover {
+    background-size: 115% 115%;
+}
+
+.asagii {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.asagi11,
+.asagi22,
+.asagi33 {
+    width: 23%;
+    margin-bottom: 130px;
+}
+
+.yazi {
+    margin-left: 215px;
+    transform: translateY(100px);
+}
+
+.xett {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+.xett::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.xett:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+/* Orta hissenin sonu*/
+
+/*footer hissenin baslangci*/
+.son {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left,
+.center,
+.right {
+    margin-top: 50px;
+}
+
+footer {
+    background-color: darksalmon;
+    height: 70vh;
+}
+
+.son2 {
+    width: 84%;
+    margin: 0 auto;
+    height: 20vh;
+}

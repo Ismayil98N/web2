@@ -1,0 +1,359 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* Headerin baslangici*/
+
+.basliq {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+h1 ,a ,.sag {
+    color: black;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+li>a:hover {
+    color: olive;
+}
+
+.sol {
+    width: 30%;
+    margin-left: 0px;
+
+}
+
+/* Headerin sonu*/
+
+/* Orta hissenin baslangici*/
+.news{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 50px;
+    text-align: center;
+    padding: 35px 0px 100px 0px;
+}
+.esas{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.left{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-24-001@2x.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.right{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-23@2x.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.left:hover, .right:hover{
+    background-size: 115% 115%;
+}
+
+
+.asagi{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+}
+.esas1, .esas2{
+    width: 50%;
+}
+.esas1>p, .esas2>p{
+    padding: 15px 0px 15px 0px;
+}
+.left1{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-22@2x-2.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.right1{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-21@2x.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.left1:hover, .right1:hover{
+    background-size: 115% 115%;
+}
+.left2{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-20@2x.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.right2{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-19@2x.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.left2:hover, .right2:hover{
+    background-size: 115% 115%;
+}
+.left3{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-18@2x.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.right3{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-17@2x.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.left3:hover, .right3:hover{
+    background-size: 115% 115%;
+}
+.left4{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-16@2x.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.right4{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-15@2x.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.left4:hover, .right4:hover{
+    background-size: 115% 115%;
+}
+.left5{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-14@2x.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.right5{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-13@2x.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.left5:hover, .right5:hover{
+    background-size: 115% 115%;
+}
+.left6{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-12@2x.jpeg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.right6{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-11@2x.jpeg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.left6:hover, .right6:hover{
+    background-size: 115% 115%;
+}
+.left7{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-10@2x.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.right7{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-9@2x.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.left7:hover, .right7:hover{
+    background-size: 115% 115%;
+}
+.left8{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-8@2x.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.right8{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-7@2x.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.left8:hover, .right8:hover{
+    background-size: 115% 115%;
+}
+.left9{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-6@2x.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.right9{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-5@2x.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.left9:hover, .right9:hover{
+    background-size: 115% 115%;
+}
+.left10{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-4@2x.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.right10{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-3@2x.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.left10:hover, .right10:hover{
+    background-size: 115% 115%;
+}
+.left11{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-2@2x.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+    transition: 1s all;
+}
+.right11{
+    margin-top: 5%;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-1@2x.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh; 
+    transition: 1s all;
+}
+.left11:hover, .right11:hover{
+    background-size: 115% 115%;
+}
+
+.xett {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+.xett::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.xett:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+
+/* Orta hissenin sonu*/
+
+/*footer hissenin baslangci*/
+.foter{
+    transform: translateY(50px);
+}
+.son {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lefts,
+.center,
+.rights {
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #d7d0c8;
+    height: 80vh;
+}
+
+.son2 {
+    width: 84%;
+    margin: 0 auto;
+    height: 20vh;
+}
+.metn, .son2,hr{
+    transform: translateY(300px);  
+}
+html, body{
+    height: 100%;
+}
+/* Footer hissenin sonu*/

@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* Headerin baslangici*/
+
+.basliq {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+h1 ,a ,.sag {
+    color: white;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+li>a:hover {
+    color: olive;
+}
+
+.sol {
+    width: 30%;
+    margin-left: 0px;
+
+}
+
+/* Headerin sonu*/
+
+/* Orta hissenin baslangici*/
+.sekil{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/about/about-cover@2x.jpg);
+    background-size: 100% 100%;
+}
+.serhed{
+    width: 100%;
+    height: 50vh;
+    background-color: darkkhaki;
+}
+.qarayazi{
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    color: white;
+    transform: translateY(180px);
+    gap: 20px;
+}
+.qarayazi1, .qarayazi2, .qarayazi3{
+    width: 100%;
+    font-size: 15px;
+}
+.qarayazi1>h2, .qarayazi2>h2, .qarayazi3>h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.boyuk{
+    text-align: center;
+    font-size: 40px;
+    transform: translateY(100px);
+}
+.qara{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: black;
+}
+.qarayazi2>.qara>p{
+    margin-right: 50px;
+}
+.carousel-inner{
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+}
+.kvadrat{
+    width: 100%;
+    height: 150vh;
+    background-color: beige;
+}
+.kub{
+    width: 70%;
+    height: 40vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.kub1,.kub2{
+    width: 100%;
+    margin-top: 100px;
+}
+.sekil1{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/home/headquarters@2x.png);
+    background-size: 100% 100%;
+}
+.asagi {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.asagi1 {
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-23@2x.jpg);
+    width: 23%;
+    height: 30vh;
+    background-size: cover;
+
+}
+
+.asagi2 {
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-22@2x-2.jpg);
+    width: 23%;
+    height: 30vh;
+    background-size: cover;
+}
+
+.asagi3 {
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/article/article-21@2x.jpg);
+    width: 23%;
+    height: 30vh;
+    background-size: contain;
+}
+
+.asagi>h2,
+p {
+    margin-top: 250px;
+    padding: 20px 0px;
+}
+
+.asagi1,
+.asagi2,
+.asagi3 {
+    background-size: 100% 100%;
+    transition: 0.5s all;
+}
+
+.asagi1:hover,
+.asagi2:hover,
+.asagi3:hover {
+    background-size: 115% 115%;
+}
+
+.asagii {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.asagi11,
+.asagi22,
+.asagi33 {
+    width: 23%;
+    margin-bottom: 130px;
+}
+
+.yazi {
+    margin-left: 215px;
+    transform: translateY(100px);
+}
+
+.xett {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+.xett::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.xett:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+/* Orta hissenin sonu*/
+
+/*footer hissenin baslangci*/
+.foter{
+    transform: translateY(100px);
+}
+.son {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left,
+.center,
+.right {
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #d7d0c8;
+    height: 100vh;
+}
+
+.son2 {
+    width: 84%;
+    margin: 0 auto;
+    height: 20vh;
+}
+.metn, .son2,hr{
+    transform: translateY(300px);  
+}
+html, body{
+    height: 100%;
+}
+/* Footer hissenin sonu*/

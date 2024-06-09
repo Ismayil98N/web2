@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* Headerin baslangici*/
+
+.basliq {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+h1 ,a ,.sag {
+    color: white;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+li>a:hover {
+    color: olive;
+}
+
+.sol {
+    width: 30%;
+    margin-left: 0px;
+
+}
+
+/* Headerin sonu*/
+
+/* Orta hissenin baslangici*/
+.video{
+    width: 100%;
+    height: inherit;
+}
+
+.reng{
+    width: 100%;
+    height: 60vh;
+    background-color: antiquewhite;
+}
+.yazi{
+    width: 75%;
+    margin: 0 auto;
+    font-size: 30px;
+    transform: translateY(120px);
+}
+.sekil{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+.sekilsol{
+    margin-top: 100px;
+}
+.sekilsag{
+    margin-top: 100px;
+    width: 30%;
+}
+.black{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.circle{
+    width: 40%;
+}
+.daire{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+.daire1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #808080;
+}
+.daire2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+}
+.daire3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: lavender;
+}
+.daire4{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: darkorange;
+}
+.image{
+    width: 80%;
+    height: 90vh;
+    margin: 0 auto;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/model-001/exterior-color-energy-orange@2x.png);
+    background-size: cover;
+}
+.img{
+    width: 80%;
+    height: 90vh;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/model-001/exterior-color-energy-orange@2x.png);
+}
+.xett{
+    transform: translateY(50px);
+    margin-top: 100px;
+    width: 94%;
+    margin-left: 60px;
+}
+.yazi2{
+    font-size: 20px;
+    width: 100%;
+    padding: 5% 13%;
+    display: flex;
+    justify-content: space-between;
+}
+.yazi22{
+    width: 40%;
+}
+.kublar1, .kublar2{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15px; 
+}
+.kub{
+    border: 1px solid black;
+    width: 50%;
+    height: 60vh;
+}
+.bir{
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/model-001/exterior-feature-01@2x.png);
+    background-size: 100% 100%;
+}
+.dord{
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/model-001/exterior-feature-02@2x.png);
+    background-size: 100% 100%;
+}
+.iki, .uc{
+    background-color: black;
+    color: white;
+}
+.kub22, .kub33{
+    width: 100%;
+    font-size: 25px;
+    padding: 30% 5%;
+}
+.qara{
+    width: 100%;
+    height: 130vh;
+    background-color: #232323;
+    margin-top: 100px;
+}
+.sekil2{
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/model-001/exterior-slide-03@2x.png);
+    width: 60%;
+    height: 60vh;
+    background-size: 100% 100%;
+    padding: 15% 30%;
+    margin: 12% 20%;
+}
+.qara1{
+    color: white;
+    margin-left: 23%;
+    transform: translateY(180px);
+    font-size: 40px;
+}
+.qarayazi{
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    color: white;
+    transform: translateY(-180px);
+    gap: 20px;
+}
+.qarayazi1, .qarayazi2, .qarayazi3{
+    width: 100%;
+    font-size: 15px;
+}
+.qarayazi1>h2, .qarayazi2>h2, .qarayazi3>h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.image0{
+    width: 80%;
+    height: 90vh;
+    margin: 0 auto;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/model-001/interior-theme-mix-02@2x.png);
+    background-size: cover;
+}
+.kublar10, .kublar20{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15px; 
+}
+.kvadrat{
+    border: 1px solid black;
+    width: 50%;
+    height: 60vh;
+}
+.bir0{
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/model-001/interior-feature-01@2x.png);
+    background-size: 100% 100%;
+}
+.dord0{
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/model-001/interior-feature-02@2x.png);
+    background-size: 100% 100%;
+}
+.kub22>h2, .kub33>h2{
+    margin-bottom: 20px;
+}
+.sekil21{
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/model-001/interior-slide-03@2x.png);
+    width: 60%;
+    height: 60vh;
+    background-size: 100% 100%;
+    padding: 15% 30%;
+    margin: 12% 20%;
+}
+.qara11{
+    width: 40%;
+    color: white;
+    margin-left: 23%;
+    transform: translateY(180px);
+    font-size: 30px;
+}
+.qarayazi11>h2{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.butun1{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 100px 40px;
+    font-size: 30px;
+    color: white;
+}
+.cedvel{
+    width: 80%;
+    margin: 0 auto;
+}
+table, tr, td{
+    border: 2px solid goldenrod;
+    border-collapse:collapse ;
+    width: 100%;
+    height: 12vh;
+    text-align: center;
+    font-size: 30px;
+    color: goldenrod;
+    border-left: none;
+    border-right: none;
+}
+.sifir{
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    margin-top: 50px;
+    color: white;
+}
+.carousel-item{
+    width: 80%;
+    margin-left: 10%;
+    background-color: white;
+    height: 130vh;
+}
+.butun{
+    background-color: black;
+    height: 350vh;
+}
+.coursel{
+    color: black;
+}
+.xetts{
+    transform: translateY(50px);
+    margin-top: 100px;
+    width: 94%;
+    margin-left: 60px;
+    color: dimgrey;
+}
+.yazi0{
+    margin-top: 50px;
+    padding: 2% 20%;
+    color: white;
+}
+.sekilasagi{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+.asagisol{
+    width: 80%;
+    height: 80vh;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/model-001/chassis-01@2x.png);
+    background-size: 100% 100%;
+}
+.asagisag{
+    width: 80%;
+    height: 80vh;
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/model-001/chassis-02@2x.png);
+    background-size: 100% 100%;
+    background-color: white;
+}
+.asagisol1, .asagisag1{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.bottom{
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.bottomsol, .bottomsag{
+    width: 100%;
+    transform: translatey(80px);
+}
+.sekil25{
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/model-001/smart-cockpit-slide-03@2x.png);
+    width: 60%;
+    height: 60vh;
+    background-size: 100% 100%;
+    padding: 15% 30%;
+    margin: 12% 20%;
+}
+.qarayazi5{
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    color: black;
+    transform: translateY(-180px);
+    gap: 20px;
+}
+.qarayazi1, .qarayazi2, .qarayazi3{
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+.qarayazi1:hover, .qarayazi2:hover, .qarayazi3:hover{
+    opacity: 1;
+}
+.masin{
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+}
+.masin1, .masin2{
+    width: 50%;
+    height: 50vh;
+}
+.masin1{
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/model-001/smart-cockpit-detail-01@2x.png);
+    background-size: cover;
+}
+.masin2{
+    background-image: url(https://officewebsite-prod-blob-cn.azureedge.net/assets-em/images/model-001/smart-cockpit-detail-02@2x.png);
+    background-size: cover;
+}
+.car{
+    width: 80%;
+    height: 20vh;
+    margin: 0 auto;
+    transform: translateY(-460px);
+    display: flex;
+    gap: 20px;
+}
+.car1, .car2{
+    width: 50%;
+    background-color: #f1efeb;
+    padding: 3% 3%;
+}
+.yarixet{
+    transform: translateY(10px);
+}
+
+/* Orta hissenin sonu*/
+
+/*footer hissenin baslangci*/
+.foter{
+    transform: translateY(-400px);
+}
+.son {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left,
+.center,
+.right {
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #d7d0c8;
+    height: 70vh;
+}
+
+.son2 {
+    width: 84%;
+    margin: 0 auto;
+    height: 20vh;
+}
+.metn, .son2,hr{
+    transform: translateY(300px);  
+}
+html, body{
+    height: 100%;
+}
